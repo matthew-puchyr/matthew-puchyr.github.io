@@ -1,1 +1,203 @@
-hello, world
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Matthew Puchyr</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background-color: #2C2E43;
+
+      }
+
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #FFD523;
+        display: flex;
+        justify-content: center;
+        Font-Family: 'Source Sans Pro', Sans-Serif;
+
+      }
+
+
+      a {
+        color: #FFD523;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #FFD523;
+      }
+
+      .name {
+        display: flex;
+        justify-content: center;
+        Font-Family: 'Playfair Display', Serif;
+        font-style: italic;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner-image {
+        width: 145px;
+        height: 145px;
+        object-fit: cover;
+        border-radius: 128px;
+        z-index: 10;
+        position: absolute;
+        border: 5px solid #FFD523;
+      }
+
+      .banner-background {
+        height: 128px;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.9;
+        padding-top: 10px;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+        
+      }
+
+      .social-icons a {
+        font-size: 25px;
+        transition: font-size 0.3s;
+      }
+
+      .social-icons a:hover {
+        font-size: 30px;
+        transition: font-size 0.3s;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .link {
+        background-color: #2C2E43;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-radius: 5px;
+        border: 3px solid #FFD523;
+        font-size: 25px;
+        transition: font-size 0.3s,
+          background-color 0.3s;
+
+      }
+
+
+      .link a {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .link:hover {
+        background-color: #595260;
+        font-size: 30px;
+        transition: font-size 0.3s, background-color 0.3s;
+      }
+
+      footer {
+        display: flex;
+        font-size: 10px;
+        justify-content: space-around;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="items">
+
+      <div class="banner">
+        <img class="banner-background" src="Chicago.jpg" alt="Chicago">
+        <img class="banner-image"
+          src="portrait.jpeg"
+          alt="Matthew Puchyr"
+        >
+      </div>
+
+      <div class="name">
+        <h1>Matthew Puchyr</h1>
+      </div>
+
+  
+      <div class="social-icons">
+
+        <a href="https://github.com/mpuchyr" target="_blank">        <i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/matthew-puchyr-703733197?trk=public_profile_browsemap_profile-result-card_result-card_full-click" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      
+      <div class="link">
+        <img class="thumbnail" src="/thumbnails/game_controller.jpg" width="300" alt="Video Game Controller">
+        <a href="https://www.polygon.com" target="_blank">Polygon</a>
+      </div>
+  
+      <div class="link">
+        <img class="thumbnail" src="/thumbnails/legos.jpg" width="300" alt="Legos">
+        <a href="https://www.lego.com" target="_blank">Lego</a>
+      </div>
+
+      <div class="link">
+        <img class="thumbnail" src="/thumbnails/board-game.jpg" alt="Board Game">
+        <a href="https://www.fantasyflightgames.com/en/index/" target="_blank">Fantasy Flight Games</a>
+      </div>
+
+      <footer>
+        Image Credits:
+
+
+          <div>Matthew Puchyr</div>
+          <div>Tiffany Nacke</div>
+          <div>
+            <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </div>
+          <div>
+            <a href="https://unsplash.com/@villxsmil?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luis Villasmil</a> 
+    
+          </div>
+
+          <div><a href="https://unsplash.com/@xavi_cabrera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Xavi Cabrera</a> 
+          </div>
+
+          <div>
+            <a href="https://unsplash.com/@motivesandplaces?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aksel Fristrup</a> 
+          </div>
+
+          <!-- <div>
+            <a href="https://unsplash.com/@sawyerbengtson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sawyer Bengtson</a> 
+  
+          </div> -->
+  
+      </footer>
+    </div>
+    
+
+  </body>
+</html>
